@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <p class="title">Random Password Generator</p>
+
+        <div class="inputSize">
+          <label for="sizeofpass">Enter the size of password:</label>
+          <input id="sizeofpass" type="number" min="0" />
+        </div>
+
+        <div class="check">
+          <div class="lowerCheck">
+            <input type="checkbox" id="lower" />
+            <label for="lower">Include Lowercase Letter</label>
+          </div>
+          <div class="upperCheck">
+            <input type="checkbox" id="upper" />
+            <label for="upper">Include Uppercase Letter</label>
+          </div>
+          <div class="numberCheck">
+            <input type="checkbox" id="number" />
+            <label for="number">Include Number</label>
+          </div>
+          <div class="symbolCheck">
+            <input type="checkbox" id="symbol" />
+            <label for="symbol">Include Symbol</label>
+          </div>
+        </div>
+
+        <button onclick="generate()">Submit</button>
+        <p id="answer"></p>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
