@@ -1,0 +1,61 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit";
+}
+.container {
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  background-color: hsl(192, 91%, 75%);
+  padding: 45px 40px;
+  box-shadow: 5px 5px 10px 5px hsl(197, 50%, 77%);
+}
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 35px;
+}
+.inputSize {
+  display: flex;
+  gap: 15px;
+  font-size: 1.5rem;
+}
+#sizeofpass {
+  font-size: 1.3rem;
+  max-width: 150px;
+  text-align: center;
+}
+.check {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 1.2rem;
+}
+button {
+  font-size: 1.2rem;
+  background-color: hsl(0, 100%, 50%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  min-width: 250px;
+  padding: 10px;
+  margin: auto;
+}
+button:hover {
+  background-color: hsl(0, 100%, 60%);
+}
+button:active {
+  background-color: hsl(0, 99%, 58%);
+}
+#answer {
+  text-align: center;
+  font-size: 1.3rem;
+}
