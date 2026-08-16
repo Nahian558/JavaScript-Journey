@@ -1,27 +1,27 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-    font-family: monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
 }
-body{
-    background-image:url(images/zenitsu_bg.png);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  background-image: url(images/zenitsu_bg.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.container{
-    display:flex;
-    justify-content:center;
-    height: 100vh;
-    align-items:center;
-    font-size: 5rem;
-    font-weight: bold;
-    color:white;
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
 }
-#clock{
-    background-color: hsla(180, 1%, 25%, 0.296);
-    padding: 15px 45px;
-    box-shadow:inset 0px 0px 20px 0.5px;
-    border-radius: 20px;
+#clock {
+  background-color: hsla(180, 1%, 25%, 0.296);
+  padding: 15px 45px;
+  box-shadow: inset 0px 0px 20px 0.5px;
+  border-radius: 20px;
 }

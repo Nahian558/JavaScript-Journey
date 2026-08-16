@@ -7,7 +7,7 @@ function time() {
   hours = hours % 12 || 12;
   hours.toString().padStart(2, 0);
 
-  const timeString = `${hours}:${minutes}:${seconds} ${meridien}`
+  const timeString = `${hours}:${minutes}:${seconds} ${meridien}`;
   document.getElementById("clock").textContent = timeString;
 }
 
