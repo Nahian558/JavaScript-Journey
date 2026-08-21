@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  text-align: center;
+  font-family: helvetica;
+}
+.title {
+  font-family: georgia;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+button {
+  cursor: pointer;
+  border: none;
+  background-color: aliceblue;
+  font-size: 1.2rem;
+  margin: 50px 10px;
+
+  img {
+    width: 140px;
+  }
+}
+.turn {
+  font-size: 1.5rem;
+}
+#result {
+  margin-block: 50px;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.score,
+span {
+  display: inline;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.greenText {
+  color: hsl(110, 80%, 44%);
+}
+.redText {
+  color: hsl(0, 90%, 49%);
+}

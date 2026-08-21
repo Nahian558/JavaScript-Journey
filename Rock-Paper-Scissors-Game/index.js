@@ -5,16 +5,16 @@ let yTurn = document.getElementById("yTurn");
 let cTurn = document.getElementById("cTurn");
 
 let yourScore = document.getElementById("yourScore");
-yourScore.classList.add("greenText")
+yourScore.classList.add("greenText");
 
 let computerScore = document.getElementById("computerScore");
-computerScore.classList.add("redText")
+computerScore.classList.add("redText");
 
 let yourPoint = 0;
 let computerPoint = 0;
 
 function playGame(guess) {
-  computerGuess = guesses[Math.floor(Math.random() * 3)];
+  let computerGuess = guesses[Math.floor(Math.random() * 3)];
 
   yTurn.textContent = `Your Turn: ${guess}`;
   cTurn.textContent = `Computer's Turn: ${computerGuess}`;
@@ -35,7 +35,7 @@ function playGame(guess) {
     }
   }
 
-  result.classList.remove("greenText", "redText")
+  result.classList.remove("greenText", "redText");
 
   switch (result.textContent) {
     case "You Win!":
