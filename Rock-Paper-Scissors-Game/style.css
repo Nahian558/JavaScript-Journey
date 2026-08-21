@@ -16,8 +16,9 @@ body {
 }
 .title {
   font-family: georgia;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
+  font-family:cursive;
 }
 button {
   cursor: pointer;
@@ -27,7 +28,7 @@ button {
   margin: 50px 10px;
 
   img {
-    width: 140px;
+    width: 100px;
   }
 }
 .turn {
@@ -35,8 +36,10 @@ button {
 }
 #result {
   margin-block: 50px;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
+  background-color: white;
+  padding-block:10px;
 }
 .score,
 span {
